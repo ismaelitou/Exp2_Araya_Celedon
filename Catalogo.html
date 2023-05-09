@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="img/plant-logo.png">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="js/dom.js"></script>
+    <title>Catálogo</title>
+</head>
+<body>
+    <!--MENÚ-->
+    <nav class="navbar navbar-expand-sm navbar-light">     
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#opciones">        <!--Definimos caracteristicas del boton-->
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <a href="Inicio.html" class="navbar-brand">       <!--Insertamos un logo-->
+            <img id="imgMenu" src="img/gardencito.png" width="100px" height="25px">
+        </a>
+
+        <div class="collapse navbar-collapse" id="opciones">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a id="inicioMenu" class="nav-link" href="Inicio.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a id="infoMenu" class="nav-link" href="Informacion.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a id="cataMenu" class="nav-link" href="Catalogo.html">Catálogo</a>
+                </li>
+                <li class="nav-item">
+                    <a id="contactMenu" class="nav-link" href="Contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>      <!--Cierre del menú-->
+
+    <!--INICIO CATÁLOGO-->
+    <div id="catalogoInfo" class="container-fluid" >
+        <div class="row">
+            <div id="itemCatalogo" class="col-sm-6">
+                <img id="imgParrafo" class="zoom w-50 img-thumbnail" src="img/catalogo/macetero-arcilla.jfif">
+                <h1 class="display-4" style="text-align: center; color: #6D8C3E;">Macetero arcilla.</h1>
+                <p style="text-align: center; font-size: 150%;">Perfecto para un look vintage en tu jardín.</p>
+            </div>
+            <div id="itemCatalogo" class="col-sm-6">
+                <img id="imgParrafo" class="zoom w-50 img-thumbnail" src="img/catalogo/estante-plantas.jfif">
+                <h1 class="display-4" style="text-align: center; color: #6D8C3E;">Estante plantas.</h1>
+                <p style="text-align: center; font-size: 150%;">Estante para plantas de madera de cuatro pisos.</p>
+            </div>
+            <div id="itemCatalogo" class="col-sm-6">
+                <img id="imgParrafo" class="zoom w-50 img-thumbnail" src="img/catalogo/bodega-jardin.jfif">
+                <h1 class="display-4" style="text-align: center; color: #6D8C3E;">Bodega jardín.</h1>
+                <p style="text-align: center; font-size: 150%;">Ideal para guardar vasta cantidad de artículos de jardinería.</p>
+            </div>
+            <div id="itemCatalogo" class="col-sm-6">
+                <img id="imgParrafo" class="zoom w-50 img-thumbnail" src="img/catalogo/pack-herramientas.jfif">
+                <h1 class="display-4" style="text-align: center; color: #6D8C3E;">Pack de herramientas.</h1>
+                <p style="text-align: center; font-size: 150%;">Herramientas de jardinería. Un paquete completo para comenzar.</p>
+            </div>
+            <div id="itemCatalogo" class="col-sm-6">
+                <img id="imgParrafo" class="zoom w-50 img-thumbnail" src="img/catalogo/panel-bamboo.jfif">
+                <h1 class="display-4" style="text-align: center; color: #6D8C3E;">Panel bamboo.</h1>
+                <p style="text-align: center; font-size: 150%;">Panel de madera y bamboo para decorar o separar ambientes de tu patio.</p>
+            </div>
+            <div id="itemCatalogo" class="col-sm-6">
+                <img id="imgParrafo" class="zoom w-50 img-thumbnail" src="img/catalogo/pasto-sintetico.jfif">
+                <h1 class="display-4" style="text-align: center; color: #6D8C3E;">Pasto sintético.</h1>
+                <p style="text-align: center; font-size: 150%;">Excelente para esos lugares del jardín en donde cuidar el pasto es una tarea compleja.</p>
+            </div>
+            <div id="itemCatalogo" class="col-sm-6">
+                <img id="imgParrafo" class="zoom w-50 img-thumbnail" src="img/catalogo/planta-filodendros.jfif">
+                <h1 class="display-4" style="text-align: center; color: #6D8C3E;">Planta filolendros (natural).</h1>
+                <p style="text-align: center; font-size: 150%;">Incluye un macetero e instrucciones de cuidado.</p>
+            </div>
+            <div id="itemCatalogo" class="col-sm-6">
+                <img id="imgParrafo" class="zoom w-50 img-thumbnail" src="img/catalogo/set-manguera.jfif">
+                <h1 class="display-4" style="text-align: center; color: #6D8C3E;">Set manguera.</h1>
+                <p style="text-align: center; font-size: 150%;">Set para mantener de repuesto o de reemplazo para tu manguera actual.</p>
+            </div>
+        </div>
+    </div>
+
+    <!--FOOTER-->
+    <footer class="text-center text-lg-start" style="background-color: rgb(46, 46, 46);">
+        <div class="container d-flex justify-content-center py-4">
+            <button type="button" class="btn" style="background-color: #54456b00;">
+                <a href="https://www.instagram.com" target="blank"><img src="img/instagram-icon.png" alt="Instagram" width="40px" height="40px"></a>
+            </button>
+            <button type="button" class="btn" style="background-color: #54456b00;">
+                <a href="https://www.facebook.com" target="blank"><img src="img/facebook-icon.webp" alt="Facebook" width="40px" height="40px"></a>
+            </button>
+            <button type="button" class="btn" style="background-color: #54456b00;">
+                <a href="https://www.twitter.com" target="blank"><img src="img/twitter-logo.png" alt="Twitter" width="40px" height="40px"></a>
+            </button>
+        </div>
+        <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);">© 2023 Derechos reservados</div>
+    </footer>
+</body>
+</html>
